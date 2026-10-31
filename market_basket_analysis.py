@@ -21,7 +21,7 @@ from mlxtend.frequent_patterns import apriori, association_rules
 # 1. PROJECT PATHS
 # ============================================================
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
+PROJECT_ROOT = Path(__file__).resolve().parent
 DATA_PATH = PROJECT_ROOT / "data" / "Groceries_dataset.csv"
 FIGURE_DIR = PROJECT_ROOT / "outputs" / "figures"
 TABLE_DIR = PROJECT_ROOT / "outputs" / "tables"
