@@ -185,17 +185,17 @@ This is an association, not a causal effect.
 market-basket-analysis-python/
 │
 ├── README.md
-├── requirements.txt
+
 ├── .gitignore
 │
 ├── data/
 │   ├── README.md
 │   └── Groceries_dataset.csv
 │
-├── src/
+
 │   └── market_basket_analysis.py
 │
-├── outputs/
+├
 │   ├── figures/
 │   │   ├── top_products.png
 │   │   └── association_rules_scatter.png
@@ -422,17 +422,4 @@ That experiment would answer a causal question association rules alone cannot an
 
 ---
 
-## **Author**
 
-Isaac Cobena
-
-TalkCodeToMe  
-*Learn. Build. Deploy. Real Skills for Real Data.*
-
----
-
-## Licence
-
-Choose a licence appropriate for your repository, for example the MIT Licence for your code.
-
-The Kaggle dataset remains subject to its original source licence and terms.
